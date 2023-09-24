@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Ao">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="css/estilo.css"> 
+ <link rel="shortcut icon" href="assets/Logotipo.svg" type="image/x-icon">
+ <title>Espaço Sideral</title>
+</head>
+<body>
+  
+<div id="container" class="flex">
+  <div>
+    <header><img src="assets/Logotipo.svg" alt=""></header>
+    <main>
+      <div class="title">
+        <h1>Vem conhecer o espaço sideral</h1>
+        <p>Faça login ou regista-se para embarca nesta <br>
+          viagem.</p>
+      </div>
+      <form>
+        <div class="input-wrapper">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" name="email" placeholder="Digita o seu e-mail" required>
+        </div>
+
+        <div class="input-wrapper">
+          <div class="label-wrapper flex">
+            <label for="email">Senha</label>
+            <a href="#">Esqueceu a senha?</a>
+          </div>
+          <input id="senha" type="password" name="senha" placeholder="Digita a sua senha" required>
+          <img onclick=" togglePasswor()" src="assets/Icon feather-eye-off.svg" class="eye" alt="Feather-eye">
+          <img onclick=" togglePasswor()" src="assets/" class=" eye hide " alt="feather-eye-off">
+        </div>
+
+        <button type="submit">Entrar</button>
+        <div class="criar-conta">
+          <a href="#">Ainda não tem conta? <span> Escreva-se</span> </a>
+        </div>
+      </form>
+    </main>
+  </div>
+  <img src="assets/3d-render-de-um-fundo-do-sistema-solar-com-nebulosa-colorida.png" alt="">
+</div>
+  
+</body>
+</html>
